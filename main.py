@@ -123,7 +123,7 @@ email_username_label.grid(column=0, row=2)
 password_label = Label(text="Password:", fg="red", font=FONT)
 password_label.grid(column=0, row=3)
 
-# ---------TODO create the buttons: 1) Generate Password 2)Add.
+# ---------TODO create the buttons
 generate_password_btn = Button(text="Generate Password", command=password_generator, fg="red")
 generate_password_btn.grid(column=2, row=3)
 add_btn = Button(text="            add            ", command=add, fg="blue")
